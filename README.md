@@ -66,6 +66,12 @@ To clone your new repository, use:
 git clone -b gh-pages https://github.com/your_username/YYYY-MM-DD-site
 ~~~
 
+Alternatively, if you have set up an ssh key, you can also clone the newly imported repository without requiring to input your username and password with:
+
+~~~
+git clone -b gh-pages git@github.com:your_username/YYYY-MM-DD-site
+~~~
+
 This is needed because the imported repository doesn't have a `master` branch.
 
 **Note:** please do all of your work in your repository's `gh-pages` branch,
